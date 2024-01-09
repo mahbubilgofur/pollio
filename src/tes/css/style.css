@@ -376,3 +376,161 @@ body {
   width: 100px;
   height: 100px;
 }
+
+.sec3 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/layout.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.c-sec3 {
+  font-family: "Outfit", sans-serif;
+  background-color: rgba(13, 13, 13, 0.934);
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sc1,
+.sc2 {
+  width: 35%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border: solid 2px rgb(0, 255, 251);
+  box-shadow: 3px 4px 4px rgb(0, 255, 251);
+}
+.sc11 {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec11,
+img {
+  width: 30px;
+  height: 30px;
+}
+.gr1,
+.gr2,
+.gr3 {
+  width: 3px;
+  border-radius: 100px;
+  border: solid 2px rgb(0, 255, 251);
+  height: 120px;
+  background-color: black;
+}
+.sc111 {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gr11,
+.gr22,
+.gr33 {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 15px;
+}
+.gr11,
+p,
+h2,
+h5 {
+  margin: 5px;
+}
+.gr22,
+p,
+h2,
+h5 {
+  margin: 5px;
+}
+.gr33,
+p,
+h2,
+h5 {
+  margin: 5px;
+}
+
+.sc22 {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec22,
+img {
+  width: 30px;
+  height: 30px;
+}
+.gr4,
+.gr5,
+.gr6 {
+  width: 3px;
+  border-radius: 100px;
+  border: solid 2px rgb(0, 255, 251);
+  height: 120px;
+  background-color: black;
+}
+.sc222 {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gr44,
+.gr55,
+.gr66 {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 15px;
+}
+.gr44,
+p,
+h2,
+h5 {
+  margin: 5px;
+}
+.gr55,
+p,
+h2,
+h5 {
+  margin: 5px;
+}
+.gr66,
+p,
+h2,
+h5 {
+  margin: 5px;
+}

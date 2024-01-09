@@ -5,6 +5,7 @@ import logo_t from './tes/img/logo_t.png';
 import lokasi from './tes/img/lokasi.png';
 import wa from './tes/img/wa.png';
 import ig from './tes/img/ig.png';
+import pnk from './tes/img/pdd.png'; 
 import ImageWithMovingColor from './tes/img_animasi'; 
 import BorderBottom from './tes/border-bottom'; 
 import Animasiabc from './tes/animasi_abc'; 
@@ -29,6 +30,7 @@ function App() {
             <li ><a style={{color:'rgb(0, 255, 251)'}} href="#">HOME</a></li>
             <li><a href="#tentang">TENTANG</a></li>
             <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#pendidikan">PENDIDIKAN</a></li>
         </nav>
     </header>
     <div className='left-layout'>
@@ -105,8 +107,63 @@ function App() {
         </Animasi_contact>
     </div>
     </div>  
-    <div className='sec3' id='galeri'>
-        
+    <div className='sec3' id='pendidikan'>
+        <div className='c-sec3'>
+        <div className='sc1'>
+             <div className='sc11'>
+                <img src={pnk} />
+                <div className='gr1'></div>
+                <img src={pnk} />
+                <div className='gr2'></div>
+                <img src={pnk} />
+                <div className='gr3'></div>
+             </div>
+             <div className='sc111'>
+            <div className='gr11'>
+                <p>2006-2024</p>
+               <h2>TK PGRI HARAPAN BANGSA</h2>
+               <h4>JL.PB.SUDIRMAN NO.53 GAMBIRONO BANGSALSARI</h4>
+            </div>
+            <div className='gr22'>
+            <p>2006-2024</p>
+               <h2>SDN GAMBIRONO 04</h2>
+               <h4>JL.PB.SUDIRMAN NO.53 GAMBIRONO BANGSALSARI</h4>
+            </div>
+            <div className='gr33'>
+            <p>2006-2024</p>
+               <h2>MTSn 4 JEMBER</h2>
+               <h4>Krajan B, Bangsalsari, Kec. Bangsalsari, Kabupaten Jember, Jawa Timur</h4>
+            </div>
+             </div>
+        </div>
+        <div className='sc2'>
+        <div className='sc22'>
+                <img src={pnk} />
+                <div className='gr4'></div>
+                <img src={pnk} />
+                <div className='gr5'></div>
+                <img src={pnk} />
+                <div className='gr6'></div>
+             </div>
+             <div className='sc222'>
+            <div className='gr44'>
+                <p>2006-2024</p>
+               <h2>SMK NEGERI 6 JEMBER</h2>
+               <h4>Jl. PB.Sudirman, Tekoan, Tanggul Kulon, Kec. Tanggul, Kabupaten Jember, Jawa Timur</h4>
+            </div>
+            <div className='gr55'>
+            <p>?.........................</p>
+               <h2>?...................................................</h2>
+               <h4>?..............................</h4>
+            </div>
+            <div className='gr66'>
+            <p>?.........................</p>
+               <h2>?...................................................</h2>
+               <h4>?..............................</h4>
+            </div>
+             </div>
+        </div>
+        </div>
     </div>
   </div>
   );
